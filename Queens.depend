@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1398987216 source:c:\users\murilo\desktop\dropbox\aeds iii\queens\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1398635014 source:c:\users\murilo\desktop\dropbox\aeds iii\lib\heap.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+	"heap.h"
+
+1398702574 c:\users\murilo\desktop\dropbox\aeds iii\lib\list.h
+
+1398629058 c:\users\murilo\desktop\dropbox\aeds iii\lib\heap.h
+
+1398696972 source:c:\users\murilo\desktop\dropbox\aeds iii\lib\list.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"list.h"
+
