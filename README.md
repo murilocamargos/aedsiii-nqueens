@@ -1,9 +1,15 @@
-# AEDS III - N-Queens
-Resolução do problema das N-Rainhas [Alfeld, 1997] utilizando o método Hill-Climbing
+# N-Queens
+In chess, a queen can move as far as she pleases, horizontally, vertically, or diagonally. A chess board has 8 rows and 8 columns. The standard 8 by 8 Queen's problem asks how to place 8 queens on an ordinary chess board so that none of them can hit any other in one move [[source]](http://www.math.utah.edu/~alfeld/queens/queens.html). The solution implements the Hill-Climbing algorithm.
 
-Algoritmos e Estruturas de Dados III - Engenharia de Sistemas - Unimontes
+More information in this [report](https://www.overleaf.com/read/wtjvykckytwr).
 
-Relatório: https://www.overleaf.com/read/wtjvykckytwr
+# Compile
+To compile the project, use
+```
+mingw32-make -f makec.mk all
+```
+Note 1: this runs on Windows with mingw-32 installed.
 
-# Referências
-[Alfeld, 1997] Alfeld, P. (1997). The n by n queens problem. Disponı́vel em: http://www.math.utah.edu/~alfeld/queens/queens.html.
+# Todo
+* Create a Makefile for linux
+* Use arguments instead of inside menu
